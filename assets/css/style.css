@@ -97,3 +97,35 @@ body {
     color: darkgray;
     text-align: center;
 }
+.boton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: solid 1px #80808054;
+    padding: 30px;
+}
+button {
+    color: white;
+    display: flex;
+    text-align: center;
+    margin: 0;
+    font-family:'Open Sans', sans-serif;
+    background-color: #a490d2;
+    padding: 14px;
+    border: solid 1px black;
+    padding-inline: 30px;
+    cursor: pointer;
+}
+.boton a{
+    text-decoration: none;
+    color: white;
+
+}
+button:hover {
+    background-color: rgb(202, 183, 210);
+    color: white; 
+  }
+  button:focus {
+    background-color: rgba(202, 183, 210, 0.627);
+    color: white; 
+  }  
