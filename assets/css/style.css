@@ -17,7 +17,7 @@ body {
     justify-content: center;
     align-content: center;
     flex-basis: 80%;
-    height: 100vh;
+    height:auto;
 }
 .principal img{
     width: 250px;
@@ -54,6 +54,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     border: solid 1px #80808054;
+    padding: 14px;
 }
 .fotoname {
     display: flex;
@@ -86,16 +87,20 @@ body {
 }
 .maria {
     display: flex;
+    height: 50%;
 }
 .icoplace{
     display: flex;
     justify-content: center;
     align-content: center;
+    height: 50%;
+
 }
 .iconos {
     font-size: 30px;
     color: darkgray;
     text-align: center;
+    
 }
 .boton {
     display: flex;
@@ -112,8 +117,8 @@ button {
     font-family:'Open Sans', sans-serif;
     background-color: #a490d2;
     padding: 14px;
-    border: solid 1px black;
-    padding-inline: 30px;
+    border: solid 1px white;
+    padding-inline: 55px;
     cursor: pointer;
 }
 .boton a{
@@ -128,4 +133,52 @@ button:hover {
   button:focus {
     background-color: rgba(202, 183, 210, 0.627);
     color: white; 
-  }  
+  }
+
+.otroscontactos {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: solid 1px #80808054;
+}
+.fotocontacto {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.fotocontacto img{
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+}
+.contactonombre {
+    display:flex;
+    flex-direction: column;
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size: 16px;
+    justify-content: center;
+    align-content: center;
+    text-align: start;
+    margin: 5px;
+}
+.mensaje {
+    font-family:'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+.chat {
+    display: flex;
+    height: 50%;
+    justify-content: flex-start;
+    padding-left: 25px;
+    align-content: center;
+    gap: 10px;
+}
+.barra {
+    display: flex;
+    flex-direction: column;
+}
