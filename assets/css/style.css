@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+.contenedor {
+    display: flex;
+    margin: 0;
+}
+.contactos {
+    flex-basis: 20%;
+}
+.principal {
+    border: 0;
+    background-color:#e5e5e5;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-basis: 80%;
+    height: 100vh;
+}
+.principal img{
+    width: 250px;
+    margin: 20px;
+}
+.imgcenter {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.principal h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+}
+.pcenter{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.principal p{
+    justify-content: center;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    width: 55%;
+}
+.estado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid 1px #80808054;
+}
+.fotoname {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.fotoname img{
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+}
+.estadonombre {
+    display:flex;
+    flex-direction: column;
+    font-family:'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    justify-content: center;
+    align-content: center;
+    text-align: start;
+    margin: 5px;
+}
+.activa {
+    font-family:'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    color: darkgrey;
+    text-align: center;
+}
+.maria {
+    display: flex;
+}
+.icoplace{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.iconos {
+    font-size: 30px;
+    color: darkgray;
+    text-align: center;
+}
